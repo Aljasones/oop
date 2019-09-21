@@ -1,7 +1,7 @@
 public class Comment {
-    long id;
-    User author;
-    String content;
-    int creator;
-    int likes;
+    private long id;
+    private User author;
+    private String content;
+    private int creator;
+    private int likes;
 }
