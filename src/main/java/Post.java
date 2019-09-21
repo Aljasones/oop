@@ -1,7 +1,6 @@
 public class Post {
      long id;
-     String avatarUrl;
-     String author;
+     User author;
      int created;
      String content;
      int likes;

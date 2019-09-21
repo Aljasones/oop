@@ -9,5 +9,14 @@ public class Main {
 
         String name = "It Academy";
         System.out.println(name);
+        System.out.println(post.author);
+        User vasya = new User();
+        vasya.id = 1;
+        vasya.name = "Василий";
+
+        post.author = vasya;
+        User boss = vasya;
+        boss.avatarUrl = "hippi.ru";
+        System.out.println(post.author.avatarUrl);
     }
 }
