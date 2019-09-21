@@ -8,4 +8,4 @@ public class Post {
      int comments;
      int views;
      boolean removed;
-}git add
+}
